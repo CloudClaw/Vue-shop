@@ -8,7 +8,7 @@
       @input="getValueFromInput"
     />
     <span class="search__icon" @click="searchProduct"></span>
-    <h1></h1>
+    <h1>{{ products.name }}</h1>
   </div>
 </template>
 
